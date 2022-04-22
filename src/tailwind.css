@@ -126,23 +126,14 @@ audio {
 
   #header {
     display: flex;
-    grid-template-columns: 1fr 1fr;
     justify-content: right;
     align-items: center;
     min-height: 10vh;
     justify-content: space-between;
     z-index: 5;
     position: relative;
-  }
-
-  #header p a {
-    color: #604d3b;
-    grid-column: 1;
-    margin: 5px;
-  }
-
-  #header p a:hover {
-    color: #ffdf00;
+    top: -81%;
+    left: 1%;
   }
 
   .menuknap {
@@ -217,9 +208,9 @@ audio {
     position: absolute;
     top: 0;
     right: -1%;
-    width: 25%;
+    width: 10rem;
     height: 500%;
-    padding-top: 3rem;
+    padding-top: 5rem;
     z-index: 0;
   }
 
