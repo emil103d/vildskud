@@ -9,19 +9,20 @@
     --h1_text: "bungee", sans-serif;
 
     /* Farver */
-    --primary: #33784b;
-    --secondary: #82a875;
-    --bgcolor: #fafafa;
-    --grey: #efefef;
+    --primary: #fc653a;
+    --secondary: #62ada2;
+    --bgcolor: #fee3d6;
+    --grey: #272727;
     --sort: #000000;
     --hvid: #ffffff;
     --txtcolor: #292828;
 
     /* Sizes */
-    --font_h1: clamp(2rem, 1.6591rem + 1.4545vw, 2.75rem);
+    --font_h1: clamp(3.5rem, 1.6591rem + 1.4545vw, 2.75rem);
     --font_h2: clamp(2rem, 1.6591rem + 1.4545vw, 2.75rem);
     --font_h3: 2.188rem;
     --font_h4: 1.875rem;
+    --font_h5: 1.3rem;
     --font_b: 1.625rem;
     --font_bl: 1.375rem;
     --font_nav: 2.3rem;
@@ -63,10 +64,12 @@ audio {
   body {
     background-color: var(--bgcolor);
     --weight-regurlar: 400;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   section {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     margin-top: 5rem;
   }
@@ -83,6 +86,7 @@ audio {
   h2 {
     font-size: var(--font_h2);
     font-weight: 200;
+    color: var(--primary);
   }
 
   h3 {
@@ -93,6 +97,11 @@ audio {
   h4 {
     font-size: var(--font_h4);
     font-weight: 100;
+  }
+
+  h5 {
+    font-size: var(--font_h5);
+    font-weight: 600;
   }
 
   p {
@@ -115,23 +124,24 @@ audio {
 
   /* Header start */
 
-  header {
-    display: grid;
+  #header {
+    display: flex;
     grid-template-columns: 1fr 1fr;
     justify-content: right;
     align-items: center;
     min-height: 10vh;
-    position: relative;
+    justify-content: space-between;
     z-index: 5;
+    position: relative;
   }
 
-  header p a {
+  #header p a {
     color: #604d3b;
     grid-column: 1;
     margin: 5px;
   }
 
-  header p a:hover {
+  #header p a:hover {
     color: #ffdf00;
   }
 
@@ -146,6 +156,7 @@ audio {
     transition: all 0.5s ease-in-out;
     /* border: 3px solid gray; */
     grid-column: 2;
+    z-index: 10;
   }
 
   .menuknap_burger {
@@ -200,20 +211,23 @@ audio {
   #menu {
     list-style-type: none;
     transition: transform 0.3s;
-    background-color: rgba(208, 186, 154, 0.6);
+    background-color: rgba(98, 172, 161, 0.74);
     text-align: right;
     transition: all 1s ease-in-out;
     position: absolute;
-    top: 100%;
-    width: 100%;
+    top: 0;
+    right: -1%;
+    width: 25%;
+    height: 500%;
+    padding-top: 3rem;
+    z-index: 0;
+  }
+
+  #menu li {
+    margin-top: 0.5rem;
   }
 
   #menu li a {
-    font-family: basic-sans, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    color: #231709;
-    font-size: 10px;
-    margin-right: 1rem;
+    margin-right: 2rem;
   }
 }
