@@ -113,6 +113,28 @@ audio {
     border-style: none;
   }
 
+  /* Header start */
+
+  header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: right;
+    align-items: center;
+    min-height: 10vh;
+    position: relative;
+    z-index: 5;
+  }
+
+  header p a {
+    color: #604d3b;
+    grid-column: 1;
+    margin: 5px;
+  }
+
+  header p a:hover {
+    color: #ffdf00;
+  }
+
   .menuknap {
     position: relative;
     display: flex;
@@ -123,7 +145,7 @@ audio {
     cursor: pointer;
     transition: all 0.5s ease-in-out;
     /* border: 3px solid gray; */
-    grid-column: 3;
+    grid-column: 2;
   }
 
   .menuknap_burger {
@@ -182,9 +204,12 @@ audio {
     text-align: right;
     transition: all 1s ease-in-out;
     position: absolute;
+    top: 100%;
+    width: 100%;
   }
 
   #menu li a {
+    font-family: basic-sans, sans-serif;
     font-style: normal;
     font-weight: 600;
     color: #231709;
