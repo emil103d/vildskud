@@ -182,12 +182,9 @@ audio {
     text-align: right;
     transition: all 1s ease-in-out;
     position: absolute;
-    top: 100%;
-    width: 100%;
   }
 
   #menu li a {
-    font-family: basic-sans, sans-serif;
     font-style: normal;
     font-weight: 600;
     color: #231709;
