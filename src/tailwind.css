@@ -117,6 +117,10 @@ audio {
     text-decoration: underline;
   }
 
+  footer {
+    background-color: var(--bgcolor)
+  }
+
   button {
     background-color: var(--primary);
     border-radius: var(--border-radius-md);
@@ -224,5 +228,10 @@ audio {
 
   #menu li a {
     margin-right: 2rem;
+  }
+
+  .kort {
+    background-image: url("img/map2little.webp");
+    background-size: cover;
   }
 }
