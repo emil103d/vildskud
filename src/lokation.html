@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Starter Template</title>
+    <link rel="stylesheet" href="tailwind.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/hjn8wpi.css" />
+    <script src="mixitup.min.js" defer></script>
+    <script src="mixitupinit.js" defer></script>
+  </head>
+  <body>
+    <header class="grid items-center justify-between">
+      <img class="logobredde" src="./img/logo.png" alt="" />
+      <div class="menuknap">
+        <div class="menuknap_burger"></div>
+      </div>
+      <ul id="menu " class="hidden">
+        <li><a href="index.html">Forside</a></li>
+        <li><a href="program.html">Program</a></li>
+        <li><a href="##">Biletter</a></li>
+        <li><a href="minliste.html">Mit Prorgram</a></li>
+        <li><a href="##">Om os</a></li>
+        <li><a href="##">Bliv frivillig</a></li>
+        <li><a href="##">Kontakt</a></li>
+      </ul>
+    </header>
+    <main class="program">
+      <h1 class="text-center">PROGRAM 2022</h1>
+
+      <!-- filter button -->
+      <div class="m-3 flex justify-evenly">
+        <a href="program.html"><h4>PROGRAM</h4></a>
+        <a class="underline" href="lokation.html"><h4>LOKATION</h4></a>
+      </div>
+
+      <!-- search button -->
+
+      <div
+        class="relative mx-auto ml-auto mr-auto grid max-w-lg pt-2 text-gray-600"
+      >
+        <input
+          class="h-10 rounded-lg border-2 border-gray-300 bg-white px-5 pr-16 text-sm focus:outline-none"
+          type="search"
+          name="search"
+          placeholder="Søg..."
+        />
+        <button type="submit" class="absolute -top-3 -right-3 mt-5">
+          <svg
+            class="h-4 w-4 fill-current text-gray-600"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            version="1.1"
+            id="Capa_1"
+            x="0px"
+            y="0px"
+            viewBox="0 0 56.966 56.966"
+            style="enable-background: new 0 0 56.966 56.966"
+            xml:space="preserve"
+            width="512px"
+            height="512px"
+          >
+            <path
+              d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <!-- section datoer start -->
+
+      <!-- Section kort slut -->
+
+      <!-- Section  events start -->
+      <section class="md:ml-24 md:mr-24">
+        <div class="ml-2 mr-2 h-0.5 min-h-fit bg-black"></div>
+        <div id="event" class="mix category-a flex justify-between">
+          <a
+            class="mt-4 flex items-center justify-between"
+            href="./single_program.html"
+          >
+            <h4>Østerbro</h4>
+
+            <svg
+              class="self-center"
+              width="12"
+              height="19"
+              viewBox="0 0 12 19"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 16.7675L7.417 9.5L0 2.2325L2.2834 0L12 9.5L2.2834 19L0 16.7675Z"
+                fill="black"
+                fill-opacity="0.5"
+              />
+            </svg>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mt-10">
+      <div class="ml-2 mr-2 h-0.5 min-h-fit bg-black"></div>
+      <div class="flex justify-between">
+        <a href="./program.html">
+          <svg
+            class="m-3"
+            width="37"
+            height="37"
+            viewBox="0 0 37 37"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <rect
+              width="37"
+              height="37"
+              fill="url(#pattern0)"
+              fill-opacity="0.5"
+            />
+            <defs>
+              <pattern
+                id="pattern0"
+                patternContentUnits="objectBoundingBox"
+                width="1"
+                height="1"
+              >
+                <use xlink:href="#image0_52_61" transform="scale(0.0104167)" />
+              </pattern>
+              <image
+                id="image0_52_61"
+                width="96"
+                height="96"
+                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABmJLR0QA/wD/AP+gvaeTAAAE+ElEQVR4nO2dv48VVRTHPz6jj32Kq4ArweiiBVhgIljYGM2uP9DoKlGRilhYiNho8A+w085IaLalpPBnYmPcWKCuhb+VyMZFQ9YFIgGeoNiwj+LORljZN2dmzr3nzpv7SU62uTvv3O+Ze+/M/XEGEolEIpFIJBKJRNO4ytqBHEaAzcDGS2wEuA64KfsL8DdwOvt7ApgBfgEOA98Cfwb1ugCxBaADPAKMA2PAJqr72AN+AqYy+wQ4X/GaA0ULuB+YBLo4wXzaP8ABYAK4OkD9omUFsBs4gn/Rl7NZ4OXMl8bQAV4H5rETfqnNA3sy3waaCeA37AVfzuaA7d5qb8h64CPsBZbaB8CoFyUM2Aacwl7UotYFdnjQIxht4B3shaxqk1ldasVq4EvsxdOyz4FVqgp5ZB3wA/aiadsh4HZFnbxwF3AUe7F82dGsjlFyK/A79iL5tjkifEJajWui1uKEshncpGAUtBmsAVdqXxDJ09E+7MWwsr0K+lXiOcJXOo/Q/jwrVkuZ9cAZgYODHoDTGA3KH5ZwdhAD0MPNHQVlm5LjgxKAHm6mNwgdbJ/387Dy6wgwJPDvMlpF/wF4hQhfRCLgDmCX7x9pA39gd5fF3AJ6wDEKtoKiLeBF3GRb4sqsBV7wdfEWtgvodWgBPdxCv3grTZEW8CCun0v0507gAWnhIgHYWdyXxiLWStpUhnADzHApd3TJ81nSTfnmL9x4kLsDT9oCHiUO8evCDcBDkoLSAIyX96WxjEkKSQMguljiMkQ3rWQMGAGOC8uGoA5jAMACcAtwsl8hSQvYTDzi14kWcI+kUB4bq/vSWHK1SwHwi0oANig40lRUArBWwZGmkqudJAArFRxpKrnaSQJwvYIjIfnK2oFLUAlA3VrAVmDa2okMlQDUjS7wGPEEoS+SAJz17kUxJJOCi0Gw7o5ytZME4JyCI5pMITss0cW+O1K5eX/EfplvqX2N/MTKMHabh7/Pc07SAo5LahmYLcDHxN8d5WonCcCMgiM+uI/4u6PDeQUkAci9iCFbcMk3pEEI/XSkot1W7Pv8uo4JDwt96svNuMUFa5HzbBr5uvVwVt6nPxdwR7dUqMux05hawjcSJ6RvwlPCctbENCaoavYU9nd3EYuhO3pC+PsihrA5jlTX7qiLcJe0tAs6D7wrLBsLRV/WPlP87QN4yEs3hv1d7aslvKH8m+LNuUVo4bZeWwtaxvqNCdri/4rHbTy7lZ0NaVdqCdri94CXiopahBiOKGkFwYf48wTIwLjHg+MhbRp409O1X62gq5gOcWc+tLJZShxTLcvjASpUN3uykqIlsEpVEKO9V1HLUoziElVYV97aTmGYS26CekxV+7IF4JnKKlZkL/ZCWNnbCvpVpo3Lq2ktRmg7CFyroJ8Kw7gtGNaihLKfiTCRa5PSVkabwLUJiVujPzG0jsHsjg4Btynq5JVVuLya1qJp2UEi7PPzuAZ4i/q/J0wS0dNOGZ6mvh9weN6DHiaMUq+5o/eJ+EmnChPEkXVrOZtFeTtJjHSA14hrZW0Ot5gSbD4/Btq4j6hZLvTP4lJNRpEF3ZJ7cR/8OYl/0c8A+3E7l82TkJg7sIQhXKap8czupvpJzgXc5uLFj3l+Cvxb8ZpqxBaApazBpcvZgJvmWPyc7UrgRv47RH4Od2ef5f+fs/2OnJw9iUQikUgkEolEIhGSi1l1d880tjtNAAAAAElFTkSuQmCC"
+              />
+            </defs>
+          </svg>
+        </a>
+        <a href="./kort.html">
+          <svg
+            class="m-3"
+            width="37"
+            height="37"
+            viewBox="0 0 37 37"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M31.6042 4.625L31.3575 4.67125L23.125 7.8625L13.875 4.625L5.18 7.55417C4.85625 7.66208 4.625 7.93958 4.625 8.29417V31.6042C4.625 32.0358 4.96417 32.375 5.39583 32.375L5.6425 32.3287L13.875 29.1375L23.125 32.375L31.82 29.4458C32.1437 29.3379 32.375 29.0604 32.375 28.7058V5.39583C32.375 4.96417 32.0358 4.625 31.6042 4.625ZM23.125 29.2917L13.875 26.0387V7.70833L23.125 10.9613V29.2917Z"
+              fill="black"
+              fill-opacity="0.5"
+            />
+          </svg>
+        </a>
+        <a href="./minliste.html">
+          <img class="m-3 w-8" src="./img/heart.svg" alt="" />
+        </a>
+      </div>
+    </footer>
+
+    <script type="module" src="index.js"></script>
+    <script></script>
+  </body>
+</html>
+
+<style>
+  #event {
+    width: 80vw;
+  }
+
+  .hide-scroll-bar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .hide-scroll-bar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .logobredde {
+    width: 50%;
+  }
+</style>
