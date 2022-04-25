@@ -7,6 +7,8 @@
     <title>Tailwind Starter Template</title>
     <link rel="stylesheet" href="tailwind.css" />
     <link rel="stylesheet" href="https://use.typekit.net/hjn8wpi.css" />
+    <script src="mixitup.min.js" defer></script>
+    <script src="mixitupinit.js" defer></script>
   </head>
   <body>
     <header>
@@ -24,7 +26,7 @@
         <li><a href="##">Kontakt</a></li>
       </ul>
     </header>
-    <main class="">
+    <main class="program">
       <h1 class="text-center">PROGRAM 2022</h1>
 
       <!-- filter button -->
@@ -67,91 +69,73 @@
       </div>
 
       <!-- section datoer start -->
-
-      <div class="p-auto m-auto mt-4 flex flex-col">
-        <div class="hide-scroll-bar flex overflow-x-scroll pb-10">
-          <div class="ml-10 flex flex-nowrap md:ml-20 lg:ml-40">
-            <div class="inline-block px-3">
-              <div
-                class="relative h-10 w-36 max-w-xs overflow-hidden rounded-lg shadow-md transition-shadow duration-300 ease-in-out hover:shadow-xl"
-              >
-                <p class="z-1 absolute bottom-2 left-2">Søn, 17/4</p>
-              </div>
-            </div>
-            <div class="inline-block px-3">
-              <div
-                class="relative h-10 w-36 max-w-xs overflow-hidden rounded-lg shadow-md transition-shadow duration-300 ease-in-out hover:shadow-xl"
-              >
-                <p class="z-1 absolute bottom-2 left-2">Søn, 17/4</p>
-              </div>
-            </div>
-            <div class="inline-block px-3">
-              <div
-                class="relative h-10 w-36 max-w-xs overflow-hidden rounded-lg shadow-md transition-shadow duration-300 ease-in-out hover:shadow-xl"
-              >
-                <p class="z-1 absolute bottom-2 left-2">Søn, 17/4</p>
-              </div>
-            </div>
-            <div class="inline-block px-3">
-              <div
-                class="relative h-10 w-36 max-w-xs overflow-hidden rounded-lg shadow-md transition-shadow duration-300 ease-in-out hover:shadow-xl"
-              >
-                <p class="z-1 absolute bottom-2 left-2">Søn, 17/4</p>
-              </div>
-            </div>
-            <div class="inline-block px-3">
-              <div
-                class="relative h-10 w-36 max-w-xs overflow-hidden rounded-lg shadow-md transition-shadow duration-300 ease-in-out hover:shadow-xl"
-              >
-                <p class="z-1 absolute bottom-2 left-2">Søn, 17/4</p>
-              </div>
-            </div>
-            <div class="inline-block px-3">
-              <div
-                class="relative h-10 w-36 max-w-xs overflow-hidden rounded-lg shadow-md transition-shadow duration-300 ease-in-out hover:shadow-xl"
-              >
-                <p class="z-1 absolute bottom-2 left-2">Søn, 17/4</p>
-              </div>
-            </div>
-            <div class="inline-block px-3">
-              <div
-                class="relative h-10 w-36 max-w-xs overflow-hidden rounded-lg shadow-md transition-shadow duration-300 ease-in-out hover:shadow-xl"
-              >
-                <p class="z-1 absolute bottom-2 left-2">Søn, 17/4</p>
-              </div>
-            </div>
-            <div class="inline-block px-3">
-              <div
-                class="relative h-10 w-36 max-w-xs overflow-hidden rounded-lg shadow-md transition-shadow duration-300 ease-in-out hover:shadow-xl"
-              >
-                <p class="z-1 absolute bottom-2 left-2">Søn, 17/4</p>
-              </div>
-            </div>
-            <div class="inline-block px-3">
-              <div
-                class="relative h-10 w-36 max-w-xs overflow-hidden rounded-lg shadow-md transition-shadow duration-300 ease-in-out hover:shadow-xl"
-              >
-                <p class="z-1 absolute bottom-2 left-2">Søn, 17/4</p>
-              </div>
-            </div>
-
-            <div class="inline-block px-3">
-              <div
-                class="relative h-10 w-36 max-w-xs overflow-hidden rounded-lg shadow-md transition-shadow duration-300 ease-in-out hover:shadow-xl"
-              >
-                <p class="z-1 absolute bottom-2 left-2">Søn, 17/4</p>
+                      <form>
+        <fieldset data-filter-group="programdage">
+          <div class="p-auto m-auto mt-4 flex flex-col">
+            <div class="hide-scroll-bar flex overflow-x-scroll pb-10">
+              <div class="ml-10 flex flex-nowrap md:ml-20 lg:ml-40">
+              
+                <div class="inline-block px-3">
+                  <div
+                    class="relative h-10 w-42 max-w-s overflow-hidden rounded-lg shadow-md transition-shadow duration-300 ease-in-out hover:shadow-xl"
+                  >
+                    <button type="button" data-filter=".category-a">
+                      Søn, 17/4
+                    </button>
+                  </div>
+                </div>
+                       <div class="inline-block px-3">
+                  <div
+                    class="relative h-10 w-42 max-w-xs overflow-hidden rounded-lg shadow-md transition-shadow duration-300 ease-in-out hover:shadow-xl"
+                  >
+                    <button type="button" data-filter=".category-b">
+                      Man, 18/4
+                    </button>
+                  </div>
+                </div>
+                       <div class="inline-block px-3">
+                  <div
+                    class="relative h-10 w-42 max-w-xs overflow-hidden rounded-lg shadow-md transition-shadow duration-300 ease-in-out hover:shadow-xl"
+                  >
+                    <button type="button" data-filter=".category-c">
+                      Tirs, 20/4
+                    </button>
+                  </div>
+                </div>
+                        <div class="inline-block px-3">
+                  <div
+                    class="relative h-10 w-42 max-w-xs overflow-hidden rounded-lg shadow-md transition-shadow duration-300 ease-in-out hover:shadow-xl"
+                  >
+                    <button type="button" data-filter=".category-d">
+                      Ons, 21/4
+                    </button>
+                  </div>
+                </div>
+                        <div class="inline-block px-3">
+                  <div
+                    class="relative h-10 w-42 max-w-xs overflow-hidden rounded-lg shadow-md transition-shadow duration-300 ease-in-out hover:shadow-xl"
+                  >
+                    <button type="button" data-filter=".category-e">
+                      Tors, 22/4
+                    </button>
+                  </div>
+                </div>
+                 
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="ml-2 mr-2 h-0.5 min-h-fit bg-black"></div>
+       </fieldset>
+      </form>
+
+          <div class="ml-2 mr-2 h-0.5 min-h-fit bg-black"></div>
+ 
       <!-- Section kort slut -->
 
-      <!-- Section upcoming evnts start -->
-      <a href="./single_program.html">
-        <div class="mt-4 flex items-center justify-between">
-          <div class="flex">
+      <!-- Section  events start -->
+      <section>
+      <div id="event" class="mix category-a flex justify-between ">
+        <a href="./single_program.html">
+          <div class="mt-4 flex items-center justify-between">
             <img class="flex w-20" src="./img/1.png" alt="" />
             <div>
               Den Blå Planet
@@ -167,32 +151,32 @@
                     d="M6 1C4.065 1 2.5 2.565 2.5 4.5C2.5 7.125 6 11 6 11C6 11 9.5 7.125 9.5 4.5C9.5 2.565 7.935 1 6 1ZM6 5.75C5.31 5.75 4.75 5.19 4.75 4.5C4.75 3.81 5.31 3.25 6 3.25C6.69 3.25 7.25 3.81 7.25 4.5C7.25 5.19 6.69 5.75 6 5.75Z"
                     fill="black"
                     fill-opacity="0.5"
-                  />
+                  >
                 </svg>
 
                 <p>ØSTERBRO</p>
               </div>
             </div>
           </div>
-          <svg
-            class="ml-11 grid justify-end"
-            width="37"
-            height="37"
-            viewBox="0 0 37 37"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
+        </a>
+        <svg
+          class="ml-11 self-center"
+          width="37"
+          height="37"
+          viewBox="0 0 37 37"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M20.0417 10.7917H16.9584V16.9583H10.7917V20.0417H16.9584V26.2083H20.0417V20.0417H26.2084V16.9583H20.0417V10.7917ZM18.5 3.08333C9.99004 3.08333 3.08337 9.98999 3.08337 18.5C3.08337 27.01 9.99004 33.9167 18.5 33.9167C27.01 33.9167 33.9167 27.01 33.9167 18.5C33.9167 9.98999 27.01 3.08333 18.5 3.08333ZM18.5 30.8333C11.7013 30.8333 6.16671 25.2987 6.16671 18.5C6.16671 11.7012 11.7013 6.16666 18.5 6.16666C25.2988 6.16666 30.8334 11.7012 30.8334 18.5C30.8334 25.2987 25.2988 30.8333 18.5 30.8333Z"
+            fill="black"
+            fill-opacity="0.5"
           >
-            <path
-              d="M20.0417 10.7917H16.9584V16.9583H10.7917V20.0417H16.9584V26.2083H20.0417V20.0417H26.2084V16.9583H20.0417V10.7917ZM18.5 3.08333C9.99004 3.08333 3.08337 9.98999 3.08337 18.5C3.08337 27.01 9.99004 33.9167 18.5 33.9167C27.01 33.9167 33.9167 27.01 33.9167 18.5C33.9167 9.98999 27.01 3.08333 18.5 3.08333ZM18.5 30.8333C11.7013 30.8333 6.16671 25.2987 6.16671 18.5C6.16671 11.7012 11.7013 6.16666 18.5 6.16666C25.2988 6.16666 30.8334 11.7012 30.8334 18.5C30.8334 25.2987 25.2988 30.8333 18.5 30.8333Z"
-              fill="black"
-              fill-opacity="0.5"
-            />
-          </svg>
-        </div>
-      </a>
-      <a href="./single_program.html">
-        <div class="mt-4 flex items-center justify-between">
-          <div class="flex">
+        </svg>
+      </div>
+         <div id="event" class="mix category-a flex justify-between ">
+        <a href="./single_program.html">
+          <div class="mt-4 flex items-center justify-between">
             <img class="flex w-20" src="./img/1.png" alt="" />
             <div>
               Den Blå Planet
@@ -208,32 +192,32 @@
                     d="M6 1C4.065 1 2.5 2.565 2.5 4.5C2.5 7.125 6 11 6 11C6 11 9.5 7.125 9.5 4.5C9.5 2.565 7.935 1 6 1ZM6 5.75C5.31 5.75 4.75 5.19 4.75 4.5C4.75 3.81 5.31 3.25 6 3.25C6.69 3.25 7.25 3.81 7.25 4.5C7.25 5.19 6.69 5.75 6 5.75Z"
                     fill="black"
                     fill-opacity="0.5"
-                  />
+                  >
                 </svg>
 
                 <p>ØSTERBRO</p>
               </div>
             </div>
           </div>
-          <svg
-            class="ml-11 grid justify-end"
-            width="37"
-            height="37"
-            viewBox="0 0 37 37"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
+        </a>
+        <svg
+          class="ml-11 self-center"
+          width="37"
+          height="37"
+          viewBox="0 0 37 37"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M20.0417 10.7917H16.9584V16.9583H10.7917V20.0417H16.9584V26.2083H20.0417V20.0417H26.2084V16.9583H20.0417V10.7917ZM18.5 3.08333C9.99004 3.08333 3.08337 9.98999 3.08337 18.5C3.08337 27.01 9.99004 33.9167 18.5 33.9167C27.01 33.9167 33.9167 27.01 33.9167 18.5C33.9167 9.98999 27.01 3.08333 18.5 3.08333ZM18.5 30.8333C11.7013 30.8333 6.16671 25.2987 6.16671 18.5C6.16671 11.7012 11.7013 6.16666 18.5 6.16666C25.2988 6.16666 30.8334 11.7012 30.8334 18.5C30.8334 25.2987 25.2988 30.8333 18.5 30.8333Z"
+            fill="black"
+            fill-opacity="0.5"
           >
-            <path
-              d="M20.0417 10.7917H16.9584V16.9583H10.7917V20.0417H16.9584V26.2083H20.0417V20.0417H26.2084V16.9583H20.0417V10.7917ZM18.5 3.08333C9.99004 3.08333 3.08337 9.98999 3.08337 18.5C3.08337 27.01 9.99004 33.9167 18.5 33.9167C27.01 33.9167 33.9167 27.01 33.9167 18.5C33.9167 9.98999 27.01 3.08333 18.5 3.08333ZM18.5 30.8333C11.7013 30.8333 6.16671 25.2987 6.16671 18.5C6.16671 11.7012 11.7013 6.16666 18.5 6.16666C25.2988 6.16666 30.8334 11.7012 30.8334 18.5C30.8334 25.2987 25.2988 30.8333 18.5 30.8333Z"
-              fill="black"
-              fill-opacity="0.5"
-            />
-          </svg>
-        </div>
-      </a>
-      <a href="./single_program.html">
-        <div class="mt-4 flex items-center justify-between">
-          <div class="flex">
+        </svg>
+      </div>
+         <div id="event" class="mix category-a flex justify-between ">
+        <a href="./single_program.html">
+          <div class="mt-4 flex items-center justify-between">
             <img class="flex w-20" src="./img/1.png" alt="" />
             <div>
               Den Blå Planet
@@ -249,32 +233,32 @@
                     d="M6 1C4.065 1 2.5 2.565 2.5 4.5C2.5 7.125 6 11 6 11C6 11 9.5 7.125 9.5 4.5C9.5 2.565 7.935 1 6 1ZM6 5.75C5.31 5.75 4.75 5.19 4.75 4.5C4.75 3.81 5.31 3.25 6 3.25C6.69 3.25 7.25 3.81 7.25 4.5C7.25 5.19 6.69 5.75 6 5.75Z"
                     fill="black"
                     fill-opacity="0.5"
-                  />
+                  >
                 </svg>
 
                 <p>ØSTERBRO</p>
               </div>
             </div>
           </div>
-          <svg
-            class="ml-11 grid justify-end"
-            width="37"
-            height="37"
-            viewBox="0 0 37 37"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
+        </a>
+        <svg
+          class="ml-11 self-center"
+          width="37"
+          height="37"
+          viewBox="0 0 37 37"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M20.0417 10.7917H16.9584V16.9583H10.7917V20.0417H16.9584V26.2083H20.0417V20.0417H26.2084V16.9583H20.0417V10.7917ZM18.5 3.08333C9.99004 3.08333 3.08337 9.98999 3.08337 18.5C3.08337 27.01 9.99004 33.9167 18.5 33.9167C27.01 33.9167 33.9167 27.01 33.9167 18.5C33.9167 9.98999 27.01 3.08333 18.5 3.08333ZM18.5 30.8333C11.7013 30.8333 6.16671 25.2987 6.16671 18.5C6.16671 11.7012 11.7013 6.16666 18.5 6.16666C25.2988 6.16666 30.8334 11.7012 30.8334 18.5C30.8334 25.2987 25.2988 30.8333 18.5 30.8333Z"
+            fill="black"
+            fill-opacity="0.5"
           >
-            <path
-              d="M20.0417 10.7917H16.9584V16.9583H10.7917V20.0417H16.9584V26.2083H20.0417V20.0417H26.2084V16.9583H20.0417V10.7917ZM18.5 3.08333C9.99004 3.08333 3.08337 9.98999 3.08337 18.5C3.08337 27.01 9.99004 33.9167 18.5 33.9167C27.01 33.9167 33.9167 27.01 33.9167 18.5C33.9167 9.98999 27.01 3.08333 18.5 3.08333ZM18.5 30.8333C11.7013 30.8333 6.16671 25.2987 6.16671 18.5C6.16671 11.7012 11.7013 6.16666 18.5 6.16666C25.2988 6.16666 30.8334 11.7012 30.8334 18.5C30.8334 25.2987 25.2988 30.8333 18.5 30.8333Z"
-              fill="black"
-              fill-opacity="0.5"
-            />
-          </svg>
-        </div>
-      </a>
-      <a href="./single_program.html">
-        <div class="mt-4 flex items-center justify-between">
-          <div class="flex">
+        </svg>
+      </div>
+         <div id="event" class="mix category-b flex justify-between ">
+        <a href="./single_program.html">
+          <div class="mt-4 flex items-center justify-between">
             <img class="flex w-20" src="./img/1.png" alt="" />
             <div>
               Den Blå Planet
@@ -290,32 +274,32 @@
                     d="M6 1C4.065 1 2.5 2.565 2.5 4.5C2.5 7.125 6 11 6 11C6 11 9.5 7.125 9.5 4.5C9.5 2.565 7.935 1 6 1ZM6 5.75C5.31 5.75 4.75 5.19 4.75 4.5C4.75 3.81 5.31 3.25 6 3.25C6.69 3.25 7.25 3.81 7.25 4.5C7.25 5.19 6.69 5.75 6 5.75Z"
                     fill="black"
                     fill-opacity="0.5"
-                  />
+                  >
                 </svg>
 
                 <p>ØSTERBRO</p>
               </div>
             </div>
           </div>
-          <svg
-            class="ml-11 grid justify-end"
-            width="37"
-            height="37"
-            viewBox="0 0 37 37"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
+        </a>
+        <svg
+          class="ml-11 self-center"
+          width="37"
+          height="37"
+          viewBox="0 0 37 37"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M20.0417 10.7917H16.9584V16.9583H10.7917V20.0417H16.9584V26.2083H20.0417V20.0417H26.2084V16.9583H20.0417V10.7917ZM18.5 3.08333C9.99004 3.08333 3.08337 9.98999 3.08337 18.5C3.08337 27.01 9.99004 33.9167 18.5 33.9167C27.01 33.9167 33.9167 27.01 33.9167 18.5C33.9167 9.98999 27.01 3.08333 18.5 3.08333ZM18.5 30.8333C11.7013 30.8333 6.16671 25.2987 6.16671 18.5C6.16671 11.7012 11.7013 6.16666 18.5 6.16666C25.2988 6.16666 30.8334 11.7012 30.8334 18.5C30.8334 25.2987 25.2988 30.8333 18.5 30.8333Z"
+            fill="black"
+            fill-opacity="0.5"
           >
-            <path
-              d="M20.0417 10.7917H16.9584V16.9583H10.7917V20.0417H16.9584V26.2083H20.0417V20.0417H26.2084V16.9583H20.0417V10.7917ZM18.5 3.08333C9.99004 3.08333 3.08337 9.98999 3.08337 18.5C3.08337 27.01 9.99004 33.9167 18.5 33.9167C27.01 33.9167 33.9167 27.01 33.9167 18.5C33.9167 9.98999 27.01 3.08333 18.5 3.08333ZM18.5 30.8333C11.7013 30.8333 6.16671 25.2987 6.16671 18.5C6.16671 11.7012 11.7013 6.16666 18.5 6.16666C25.2988 6.16666 30.8334 11.7012 30.8334 18.5C30.8334 25.2987 25.2988 30.8333 18.5 30.8333Z"
-              fill="black"
-              fill-opacity="0.5"
-            />
-          </svg>
-        </div>
-      </a>
-      <a href="./single_program.html">
-        <div class="mt-4 flex items-center justify-between">
-          <div class="flex">
+        </svg>
+      </div>
+         <div id="event" class="mix category-b flex justify-between ">
+        <a href="./single_program.html">
+          <div class="mt-4 flex items-center justify-between">
             <img class="flex w-20" src="./img/1.png" alt="" />
             <div>
               Den Blå Planet
@@ -331,97 +315,184 @@
                     d="M6 1C4.065 1 2.5 2.565 2.5 4.5C2.5 7.125 6 11 6 11C6 11 9.5 7.125 9.5 4.5C9.5 2.565 7.935 1 6 1ZM6 5.75C5.31 5.75 4.75 5.19 4.75 4.5C4.75 3.81 5.31 3.25 6 3.25C6.69 3.25 7.25 3.81 7.25 4.5C7.25 5.19 6.69 5.75 6 5.75Z"
                     fill="black"
                     fill-opacity="0.5"
-                  />
+                  >
                 </svg>
 
                 <p>ØSTERBRO</p>
               </div>
             </div>
           </div>
-          <svg
-            class="ml-11 grid justify-end"
-            width="37"
-            height="37"
-            viewBox="0 0 37 37"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
+        </a>
+        <svg
+          class="ml-11 self-center"
+          width="37"
+          height="37"
+          viewBox="0 0 37 37"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M20.0417 10.7917H16.9584V16.9583H10.7917V20.0417H16.9584V26.2083H20.0417V20.0417H26.2084V16.9583H20.0417V10.7917ZM18.5 3.08333C9.99004 3.08333 3.08337 9.98999 3.08337 18.5C3.08337 27.01 9.99004 33.9167 18.5 33.9167C27.01 33.9167 33.9167 27.01 33.9167 18.5C33.9167 9.98999 27.01 3.08333 18.5 3.08333ZM18.5 30.8333C11.7013 30.8333 6.16671 25.2987 6.16671 18.5C6.16671 11.7012 11.7013 6.16666 18.5 6.16666C25.2988 6.16666 30.8334 11.7012 30.8334 18.5C30.8334 25.2987 25.2988 30.8333 18.5 30.8333Z"
+            fill="black"
+            fill-opacity="0.5"
           >
-            <path
-              d="M20.0417 10.7917H16.9584V16.9583H10.7917V20.0417H16.9584V26.2083H20.0417V20.0417H26.2084V16.9583H20.0417V10.7917ZM18.5 3.08333C9.99004 3.08333 3.08337 9.98999 3.08337 18.5C3.08337 27.01 9.99004 33.9167 18.5 33.9167C27.01 33.9167 33.9167 27.01 33.9167 18.5C33.9167 9.98999 27.01 3.08333 18.5 3.08333ZM18.5 30.8333C11.7013 30.8333 6.16671 25.2987 6.16671 18.5C6.16671 11.7012 11.7013 6.16666 18.5 6.16666C25.2988 6.16666 30.8334 11.7012 30.8334 18.5C30.8334 25.2987 25.2988 30.8333 18.5 30.8333Z"
-              fill="black"
-              fill-opacity="0.5"
-            />
-          </svg>
-        </div>
-      </a>
-      <footer class="mt-10">
-        <div class="ml-2 mr-2 h-0.5 min-h-fit bg-black"></div>
-        <div class="flex justify-between">
-          <a href="./program.html">
-            <svg
-              class="m-3"
-              width="37"
-              height="37"
-              viewBox="0 0 37 37"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-            >
-              <rect
-                width="37"
-                height="37"
-                fill="url(#pattern0)"
-                fill-opacity="0.5"
-              />
-              <defs>
-                <pattern
-                  id="pattern0"
-                  patternContentUnits="objectBoundingBox"
-                  width="1"
-                  height="1"
+        </svg>
+      </div>
+         <div id="event" class="mix category-c flex justify-between ">
+        <a href="./single_program.html">
+          <div class="mt-4 flex items-center justify-between">
+            <img class="flex w-20" src="./img/1.png" alt="" />
+            <div>
+              Den Blå Planet
+              <div class="flex">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  <use
-                    xlink:href="#image0_52_61"
-                    transform="scale(0.0104167)"
-                  />
-                </pattern>
-                <image
-                  id="image0_52_61"
-                  width="96"
-                  height="96"
-                  xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABmJLR0QA/wD/AP+gvaeTAAAE+ElEQVR4nO2dv48VVRTHPz6jj32Kq4ArweiiBVhgIljYGM2uP9DoKlGRilhYiNho8A+w085IaLalpPBnYmPcWKCuhb+VyMZFQ9YFIgGeoNiwj+LORljZN2dmzr3nzpv7SU62uTvv3O+Ze+/M/XEGEolEIpFIJBKJRNO4ytqBHEaAzcDGS2wEuA64KfsL8DdwOvt7ApgBfgEOA98Cfwb1ugCxBaADPAKMA2PAJqr72AN+AqYy+wQ4X/GaA0ULuB+YBLo4wXzaP8ABYAK4OkD9omUFsBs4gn/Rl7NZ4OXMl8bQAV4H5rETfqnNA3sy3waaCeA37AVfzuaA7d5qb8h64CPsBZbaB8CoFyUM2Aacwl7UotYFdnjQIxht4B3shaxqk1ldasVq4EvsxdOyz4FVqgp5ZB3wA/aiadsh4HZFnbxwF3AUe7F82dGsjlFyK/A79iL5tjkifEJajWui1uKEshncpGAUtBmsAVdqXxDJ09E+7MWwsr0K+lXiOcJXOo/Q/jwrVkuZ9cAZgYODHoDTGA3KH5ZwdhAD0MPNHQVlm5LjgxKAHm6mNwgdbJ/387Dy6wgwJPDvMlpF/wF4hQhfRCLgDmCX7x9pA39gd5fF3AJ6wDEKtoKiLeBF3GRb4sqsBV7wdfEWtgvodWgBPdxCv3grTZEW8CCun0v0507gAWnhIgHYWdyXxiLWStpUhnADzHApd3TJ81nSTfnmL9x4kLsDT9oCHiUO8evCDcBDkoLSAIyX96WxjEkKSQMguljiMkQ3rWQMGAGOC8uGoA5jAMACcAtwsl8hSQvYTDzi14kWcI+kUB4bq/vSWHK1SwHwi0oANig40lRUArBWwZGmkqudJAArFRxpKrnaSQJwvYIjIfnK2oFLUAlA3VrAVmDa2okMlQDUjS7wGPEEoS+SAJz17kUxJJOCi0Gw7o5ytZME4JyCI5pMITss0cW+O1K5eX/EfplvqX2N/MTKMHabh7/Pc07SAo5LahmYLcDHxN8d5WonCcCMgiM+uI/4u6PDeQUkAci9iCFbcMk3pEEI/XSkot1W7Pv8uo4JDwt96svNuMUFa5HzbBr5uvVwVt6nPxdwR7dUqMux05hawjcSJ6RvwlPCctbENCaoavYU9nd3EYuhO3pC+PsihrA5jlTX7qiLcJe0tAs6D7wrLBsLRV/WPlP87QN4yEs3hv1d7aslvKH8m+LNuUVo4bZeWwtaxvqNCdri/4rHbTy7lZ0NaVdqCdri94CXiopahBiOKGkFwYf48wTIwLjHg+MhbRp409O1X62gq5gOcWc+tLJZShxTLcvjASpUN3uykqIlsEpVEKO9V1HLUoziElVYV97aTmGYS26CekxV+7IF4JnKKlZkL/ZCWNnbCvpVpo3Lq2ktRmg7CFyroJ8Kw7gtGNaihLKfiTCRa5PSVkabwLUJiVujPzG0jsHsjg4Btynq5JVVuLya1qJp2UEi7PPzuAZ4i/q/J0wS0dNOGZ6mvh9weN6DHiaMUq+5o/eJ+EmnChPEkXVrOZtFeTtJjHSA14hrZW0Ot5gSbD4/Btq4j6hZLvTP4lJNRpEF3ZJ7cR/8OYl/0c8A+3E7l82TkJg7sIQhXKap8czupvpJzgXc5uLFj3l+Cvxb8ZpqxBaApazBpcvZgJvmWPyc7UrgRv47RH4Od2ef5f+fs/2OnJw9iUQikUgkEolEIhGSi1l1d880tjtNAAAAAElFTkSuQmCC"
-                />
-              </defs>
-            </svg>
-          </a>
-          <a href="./kort.html">
-            <svg
-              class="m-3"
-              width="37"
-              height="37"
-              viewBox="0 0 37 37"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M31.6042 4.625L31.3575 4.67125L23.125 7.8625L13.875 4.625L5.18 7.55417C4.85625 7.66208 4.625 7.93958 4.625 8.29417V31.6042C4.625 32.0358 4.96417 32.375 5.39583 32.375L5.6425 32.3287L13.875 29.1375L23.125 32.375L31.82 29.4458C32.1437 29.3379 32.375 29.0604 32.375 28.7058V5.39583C32.375 4.96417 32.0358 4.625 31.6042 4.625ZM23.125 29.2917L13.875 26.0387V7.70833L23.125 10.9613V29.2917Z"
-                fill="black"
-                fill-opacity="0.5"
-              />
-            </svg>
-          </a>
-          <a href="./minliste.html">
-            <img class="m-3 w-8" src="./img/heart.svg" alt="" />
-          </a>
-        </div>
-      </footer>
+                  <path
+                    d="M6 1C4.065 1 2.5 2.565 2.5 4.5C2.5 7.125 6 11 6 11C6 11 9.5 7.125 9.5 4.5C9.5 2.565 7.935 1 6 1ZM6 5.75C5.31 5.75 4.75 5.19 4.75 4.5C4.75 3.81 5.31 3.25 6 3.25C6.69 3.25 7.25 3.81 7.25 4.5C7.25 5.19 6.69 5.75 6 5.75Z"
+                    fill="black"
+                    fill-opacity="0.5"
+                  >
+                </svg>
+
+                <p>ØSTERBRO</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <svg
+          class="ml-11 self-center"
+          width="37"
+          height="37"
+          viewBox="0 0 37 37"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M20.0417 10.7917H16.9584V16.9583H10.7917V20.0417H16.9584V26.2083H20.0417V20.0417H26.2084V16.9583H20.0417V10.7917ZM18.5 3.08333C9.99004 3.08333 3.08337 9.98999 3.08337 18.5C3.08337 27.01 9.99004 33.9167 18.5 33.9167C27.01 33.9167 33.9167 27.01 33.9167 18.5C33.9167 9.98999 27.01 3.08333 18.5 3.08333ZM18.5 30.8333C11.7013 30.8333 6.16671 25.2987 6.16671 18.5C6.16671 11.7012 11.7013 6.16666 18.5 6.16666C25.2988 6.16666 30.8334 11.7012 30.8334 18.5C30.8334 25.2987 25.2988 30.8333 18.5 30.8333Z"
+            fill="black"
+            fill-opacity="0.5"
+          >
+        </svg>
+      </div>
+         <div id="event" class="mix category-c flex justify-between ">
+        <a href="./single_program.html">
+          <div class="mt-4 flex items-center justify-between">
+            <img class="flex w-20" src="./img/1.png" alt="" />
+            <div>
+              Den Blå Planet
+              <div class="flex">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 1C4.065 1 2.5 2.565 2.5 4.5C2.5 7.125 6 11 6 11C6 11 9.5 7.125 9.5 4.5C9.5 2.565 7.935 1 6 1ZM6 5.75C5.31 5.75 4.75 5.19 4.75 4.5C4.75 3.81 5.31 3.25 6 3.25C6.69 3.25 7.25 3.81 7.25 4.5C7.25 5.19 6.69 5.75 6 5.75Z"
+                    fill="black"
+                    fill-opacity="0.5"
+                  >
+                </svg>
+
+                <p>ØSTERBRO</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <svg
+          class="ml-11 self-center"
+          width="37"
+          height="37"
+          viewBox="0 0 37 37"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M20.0417 10.7917H16.9584V16.9583H10.7917V20.0417H16.9584V26.2083H20.0417V20.0417H26.2084V16.9583H20.0417V10.7917ZM18.5 3.08333C9.99004 3.08333 3.08337 9.98999 3.08337 18.5C3.08337 27.01 9.99004 33.9167 18.5 33.9167C27.01 33.9167 33.9167 27.01 33.9167 18.5C33.9167 9.98999 27.01 3.08333 18.5 3.08333ZM18.5 30.8333C11.7013 30.8333 6.16671 25.2987 6.16671 18.5C6.16671 11.7012 11.7013 6.16666 18.5 6.16666C25.2988 6.16666 30.8334 11.7012 30.8334 18.5C30.8334 25.2987 25.2988 30.8333 18.5 30.8333Z"
+            fill="black"
+            fill-opacity="0.5"
+          >
+        </svg>
+      </div>
+      </section>
     </main>
 
+    <footer class="mt-10">
+      <div class="ml-2 mr-2 h-0.5 min-h-fit bg-black"></div>
+      <div class="flex justify-between">
+        <a href="./program.html">
+          <svg
+            class="m-3"
+            width="37"
+            height="37"
+            viewBox="0 0 37 37"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <rect
+              width="37"
+              height="37"
+              fill="url(#pattern0)"
+              fill-opacity="0.5"
+            />
+            <defs>
+              <pattern
+                id="pattern0"
+                patternContentUnits="objectBoundingBox"
+                width="1"
+                height="1"
+              >
+                <use xlink:href="#image0_52_61" transform="scale(0.0104167)" />
+              </pattern>
+              <image
+                id="image0_52_61"
+                width="96"
+                height="96"
+                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABmJLR0QA/wD/AP+gvaeTAAAE+ElEQVR4nO2dv48VVRTHPz6jj32Kq4ArweiiBVhgIljYGM2uP9DoKlGRilhYiNho8A+w085IaLalpPBnYmPcWKCuhb+VyMZFQ9YFIgGeoNiwj+LORljZN2dmzr3nzpv7SU62uTvv3O+Ze+/M/XEGEolEIpFIJBKJRNO4ytqBHEaAzcDGS2wEuA64KfsL8DdwOvt7ApgBfgEOA98Cfwb1ugCxBaADPAKMA2PAJqr72AN+AqYy+wQ4X/GaA0ULuB+YBLo4wXzaP8ABYAK4OkD9omUFsBs4gn/Rl7NZ4OXMl8bQAV4H5rETfqnNA3sy3waaCeA37AVfzuaA7d5qb8h64CPsBZbaB8CoFyUM2Aacwl7UotYFdnjQIxht4B3shaxqk1ldasVq4EvsxdOyz4FVqgp5ZB3wA/aiadsh4HZFnbxwF3AUe7F82dGsjlFyK/A79iL5tjkifEJajWui1uKEshncpGAUtBmsAVdqXxDJ09E+7MWwsr0K+lXiOcJXOo/Q/jwrVkuZ9cAZgYODHoDTGA3KH5ZwdhAD0MPNHQVlm5LjgxKAHm6mNwgdbJ/387Dy6wgwJPDvMlpF/wF4hQhfRCLgDmCX7x9pA39gd5fF3AJ6wDEKtoKiLeBF3GRb4sqsBV7wdfEWtgvodWgBPdxCv3grTZEW8CCun0v0507gAWnhIgHYWdyXxiLWStpUhnADzHApd3TJ81nSTfnmL9x4kLsDT9oCHiUO8evCDcBDkoLSAIyX96WxjEkKSQMguljiMkQ3rWQMGAGOC8uGoA5jAMACcAtwsl8hSQvYTDzi14kWcI+kUB4bq/vSWHK1SwHwi0oANig40lRUArBWwZGmkqudJAArFRxpKrnaSQJwvYIjIfnK2oFLUAlA3VrAVmDa2okMlQDUjS7wGPEEoS+SAJz17kUxJJOCi0Gw7o5ytZME4JyCI5pMITss0cW+O1K5eX/EfplvqX2N/MTKMHabh7/Pc07SAo5LahmYLcDHxN8d5WonCcCMgiM+uI/4u6PDeQUkAci9iCFbcMk3pEEI/XSkot1W7Pv8uo4JDwt96svNuMUFa5HzbBr5uvVwVt6nPxdwR7dUqMux05hawjcSJ6RvwlPCctbENCaoavYU9nd3EYuhO3pC+PsihrA5jlTX7qiLcJe0tAs6D7wrLBsLRV/WPlP87QN4yEs3hv1d7aslvKH8m+LNuUVo4bZeWwtaxvqNCdri/4rHbTy7lZ0NaVdqCdri94CXiopahBiOKGkFwYf48wTIwLjHg+MhbRp409O1X62gq5gOcWc+tLJZShxTLcvjASpUN3uykqIlsEpVEKO9V1HLUoziElVYV97aTmGYS26CekxV+7IF4JnKKlZkL/ZCWNnbCvpVpo3Lq2ktRmg7CFyroJ8Kw7gtGNaihLKfiTCRa5PSVkabwLUJiVujPzG0jsHsjg4Btynq5JVVuLya1qJp2UEi7PPzuAZ4i/q/J0wS0dNOGZ6mvh9weN6DHiaMUq+5o/eJ+EmnChPEkXVrOZtFeTtJjHSA14hrZW0Ot5gSbD4/Btq4j6hZLvTP4lJNRpEF3ZJ7cR/8OYl/0c8A+3E7l82TkJg7sIQhXKap8czupvpJzgXc5uLFj3l+Cvxb8ZpqxBaApazBpcvZgJvmWPyc7UrgRv47RH4Od2ef5f+fs/2OnJw9iUQikUgkEolEIhGSi1l1d880tjtNAAAAAElFTkSuQmCC"
+              />
+            </defs>
+          </svg>
+        </a>
+        <a href="./kort.html">
+          <svg
+            class="m-3"
+            width="37"
+            height="37"
+            viewBox="0 0 37 37"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M31.6042 4.625L31.3575 4.67125L23.125 7.8625L13.875 4.625L5.18 7.55417C4.85625 7.66208 4.625 7.93958 4.625 8.29417V31.6042C4.625 32.0358 4.96417 32.375 5.39583 32.375L5.6425 32.3287L13.875 29.1375L23.125 32.375L31.82 29.4458C32.1437 29.3379 32.375 29.0604 32.375 28.7058V5.39583C32.375 4.96417 32.0358 4.625 31.6042 4.625ZM23.125 29.2917L13.875 26.0387V7.70833L23.125 10.9613V29.2917Z"
+              fill="black"
+              fill-opacity="0.5"
+            />
+          </svg>
+        </a>
+        <a href="./minliste.html">
+          <img class="m-3 w-8" src="./img/heart.svg" alt="" />
+        </a>
+      </div>
+    </footer>
+
     <script type="module" src="index.js"></script>
+    <script></script>
   </body>
 </html>
 
 <style>
+
+#event {
+  width: 80vw;
+}
+
   .hide-scroll-bar {
     -ms-overflow-style: none;
     scrollbar-width: none;
