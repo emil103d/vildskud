@@ -11,20 +11,23 @@
     <script src="mixitupinit.js" defer></script>
   </head>
   <body>
-    <header>
-      <img class="w-8" src="./img/logo.png" alt="" />
-      <div class="menuknap">
-        <div class="menuknap_burger"></div>
-      </div>
-      <ul id="menu" class="hidden">
-        <li><a href="index.html">Forside</a></li>
-        <li><a href="##">Program</a></li>
-        <li><a href="##">Biletter</a></li>
-        <li><a href="##">Mit Prorgram</a></li>
-        <li><a href="##">Om os</a></li>
-        <li><a href="##">Bliv frivillig</a></li>
-        <li><a href="##">Kontakt</a></li>
-      </ul>
+    <header class="grid justify-between items-center">
+
+ 
+        <img class="logobredde " src="./img/logo.png" alt="" />
+        <div class="menuknap">
+          <div class="menuknap_burger"></div>
+        </div>
+        <ul id="menu " class="hidden">
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="program.html">Program</a></li>
+          <li><a href="##">Biletter</a></li>
+          <li><a href="minliste.html">Mit Prorgram</a></li>
+          <li><a href="##">Om os</a></li>
+          <li><a href="##">Bliv frivillig</a></li>
+          <li><a href="##">Kontakt</a></li>
+        </ul>
+ 
     </header>
     <main class="program">
       <h1 class="text-center">PROGRAM 2022</h1>
@@ -69,15 +72,15 @@
       </div>
 
       <!-- section datoer start -->
-                      <form>
-        <fieldset data-filter-group="programdage">
+                      <!-- <form>
+        <fieldset data-filter-group="programdage"> -->
           <div class="p-auto m-auto mt-4 flex flex-col">
             <div class="hide-scroll-bar flex overflow-x-scroll pb-10">
               <div class="ml-10 flex flex-nowrap md:ml-20 lg:ml-40">
               
                 <div class="inline-block px-3">
                   <div
-                    class="relative h-10 w-42 max-w-s overflow-hidden rounded-lg shadow-md transition-shadow duration-300 ease-in-out hover:shadow-xl"
+                    class="relative h-10 w-44 max-w-s overflow-hidden rounded-lg shadow-md transition-shadow duration-300 ease-in-out hover:shadow-xl"
                   >
                     <button type="button" data-filter=".category-a">
                       Søn, 17/4
@@ -86,7 +89,7 @@
                 </div>
                        <div class="inline-block px-3">
                   <div
-                    class="relative h-10 w-42 max-w-xs overflow-hidden rounded-lg shadow-md transition-shadow duration-300 ease-in-out hover:shadow-xl"
+                    class="relative h-10 w-44 max-w-xs overflow-hidden rounded-lg shadow-md transition-shadow duration-300 ease-in-out hover:shadow-xl"
                   >
                     <button type="button" data-filter=".category-b">
                       Man, 18/4
@@ -95,7 +98,7 @@
                 </div>
                        <div class="inline-block px-3">
                   <div
-                    class="relative h-10 w-42 max-w-xs overflow-hidden rounded-lg shadow-md transition-shadow duration-300 ease-in-out hover:shadow-xl"
+                    class="relative h-10 w-44 max-w-xs overflow-hidden rounded-lg shadow-md transition-shadow duration-300 ease-in-out hover:shadow-xl"
                   >
                     <button type="button" data-filter=".category-c">
                       Tirs, 20/4
@@ -104,7 +107,7 @@
                 </div>
                         <div class="inline-block px-3">
                   <div
-                    class="relative h-10 w-42 max-w-xs overflow-hidden rounded-lg shadow-md transition-shadow duration-300 ease-in-out hover:shadow-xl"
+                    class="relative h-10 w-44 max-w-xs overflow-hidden rounded-lg shadow-md transition-shadow duration-300 ease-in-out hover:shadow-xl"
                   >
                     <button type="button" data-filter=".category-d">
                       Ons, 21/4
@@ -113,7 +116,25 @@
                 </div>
                         <div class="inline-block px-3">
                   <div
-                    class="relative h-10 w-42 max-w-xs overflow-hidden rounded-lg shadow-md transition-shadow duration-300 ease-in-out hover:shadow-xl"
+                    class="relative h-10 w-44 max-w-xs overflow-hidden rounded-lg shadow-md transition-shadow duration-300 ease-in-out hover:shadow-xl"
+                  >
+                    <button type="button" data-filter=".category-e">
+                      Tors, 22/4
+                    </button>
+                  </div>
+                </div>
+                 <div class="inline-block px-3">
+                  <div
+                    class="relative h-10 w-44 max-w-xs overflow-hidden rounded-lg shadow-md transition-shadow duration-300 ease-in-out hover:shadow-xl"
+                  >
+                    <button type="button" data-filter=".category-e">
+                      Tors, 22/4
+                    </button>
+                  </div>
+                </div>
+                 <div class="inline-block px-3">
+                  <div
+                    class="relative h-10 w-44 max-w-xs overflow-hidden rounded-lg shadow-md transition-shadow duration-300 ease-in-out hover:shadow-xl"
                   >
                     <button type="button" data-filter=".category-e">
                       Tors, 22/4
@@ -124,15 +145,15 @@
               </div>
             </div>
           </div>
-       </fieldset>
-      </form>
+       <!-- </fieldset>
+      </form> -->
 
           <div class="ml-2 mr-2 h-0.5 min-h-fit bg-black"></div>
  
       <!-- Section kort slut -->
 
       <!-- Section  events start -->
-      <section>
+      <div class="md:ml-24 md:mr-24">
       <div id="event" class="mix category-a flex justify-between ">
         <a href="./single_program.html">
           <div class="mt-4 flex items-center justify-between">
@@ -420,7 +441,7 @@
           >
         </svg>
       </div>
-      </section>
+    </div>
     </main>
 
     <footer class="mt-10">
@@ -499,5 +520,9 @@
   }
   .hide-scroll-bar::-webkit-scrollbar {
     display: none;
+  }
+
+  .logobredde {
+    width: 50%;
   }
 </style>
