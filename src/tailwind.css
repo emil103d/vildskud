@@ -43,6 +43,10 @@
     /* Aliases */
     --heading-display: var(--heading-font-size-lg);
   }
+  #hero {
+    background-image: url("img/heronotxt.jpg");
+    background-size: cover;
+  }
 
   /* Basic css */
 
