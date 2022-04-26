@@ -9,122 +9,95 @@
     <link rel="stylesheet" href="https://use.typekit.net/hjn8wpi.css" />
   </head>
   <body class="m-auto max-w-3xl">
-    <header>
-      <div class="z-4 flex justify-between">
-        <svg
-          width="12"
-          height="19"
-          viewBox="0 0 12 19"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M12 2.2325L4.583 9.5L12 16.7675L9.7166 19L8.30516e-07 9.5L9.7166 -1.99621e-07L12 2.2325Z"
-            fill="black"
-            fill-opacity="0.5"
-          />
-        </svg>
+    <header class="mt-4">
+      <div class="z-4 flex justify-between align-middle">
+        <a href="program.html">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            aria-hidden="true"
+            role="img"
+            class="iconify iconify--ic"
+            width="32"
+            height="32"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="grey"
+              d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6l6 6l1.41-1.41z"
+            ></path>
+          </svg>
+        </a>
 
         <svg
-          width="37"
-          height="37"
-          viewBox="0 0 37 37"
-          fill="none"
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
+          aria-hidden="true"
+          role="img"
+          class="iconify iconify--mdi"
+          width="32"
+          height="32"
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 24 24"
         >
-          <rect
-            width="37"
-            height="37"
-            fill="url(#pattern0)"
-            fill-opacity="0.5"
-          />
-          <defs>
-            <pattern
-              id="pattern0"
-              patternContentUnits="objectBoundingBox"
-              width="1"
-              height="1"
-            >
-              <use xlink:href="#image0_52_457" transform="scale(0.0104167)" />
-            </pattern>
-            <image
-              id="image0_52_457"
-              width="96"
-              height="96"
-              xlink:href="data:image/png;base64,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"
-            />
-          </defs>
+          <path
+            fill="grey"
+            d="m12 21.35l-1.45-1.32C5.4 15.36 2 12.27 2 8.5C2 5.41 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.08C13.09 3.81 14.76 3 16.5 3C19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"
+          ></path>
         </svg>
       </div>
-      <img
-        id="billede"
-        class="z-1 mt-5"
-        src="img/vadim-fomenok-TIlqbsIbo7s-unsplash.jpg"
-        alt=""
-      />
-      <div class="z-1 absolute top-56">
-        <h1 class="text-center">VILDSKUD</h1>
-        <h1 class="text-center">2022</h1>
-      </div>
     </header>
+
+    <div id="single_view" class="">
+      <div class="z-1 mt-4 object-cover pt-32 pb-32">
+        <h1 class="text-center">WISH</h1>
+        <h1 class="text-center text-xl">Hvem Har Inviteret Odile?</h1>
+      </div>
+    </div>
 
     <main class="">
       <section class="flex justify-between">
         <div class="m-3">
           <div class="flex">
             <svg
-              width="30"
-              height="30"
-              viewBox="0 0 30 30"
-              fill="none"
               xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              class="iconify iconify--ic"
+              width="32"
+              height="32"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
             >
               <path
-                d="M15 2.5C10.1625 2.5 6.25 6.4125 6.25 11.25C6.25 17.8125 15 27.5 15 27.5C15 27.5 23.75 17.8125 23.75 11.25C23.75 6.4125 19.8375 2.5 15 2.5ZM15 14.375C13.275 14.375 11.875 12.975 11.875 11.25C11.875 9.525 13.275 8.125 15 8.125C16.725 8.125 18.125 9.525 18.125 11.25C18.125 12.975 16.725 14.375 15 14.375Z"
-                fill="black"
-                fill-opacity="0.5"
-              />
+                fill="grey"
+                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5a2.5 2.5 0 0 1 0 5z"
+              ></path>
             </svg>
-            <p>Nørrebro</p>
+            <p class="ml-2">Nørrebro</p>
           </div>
           <div class="flex">
             <svg
-              width="30"
-              height="30"
-              viewBox="0 0 30 30"
-              fill="none"
               xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              class="iconify iconify--ion"
+              width="32"
+              height="32"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 512 512"
+              color
             >
-              <rect
-                width="30"
-                height="30"
-                fill="url(#pattern0)"
-                fill-opacity="0.5"
-              />
-              <defs>
-                <pattern
-                  id="pattern0"
-                  patternContentUnits="objectBoundingBox"
-                  width="1"
-                  height="1"
-                >
-                  <use
-                    xlink:href="#image0_52_450"
-                    transform="scale(0.0104167)"
-                  />
-                </pattern>
-                <image
-                  id="image0_52_450"
-                  width="96"
-                  height="96"
-                  xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABmJLR0QA/wD/AP+gvaeTAAACwUlEQVR4nO2dP27UQBhHn0DaJoaSKyCRgq0gSBwAuALUnId/d6FIEaTdnAC4AEpLRYpERFoKe6QVgs14157v+2Z+Txop2iT2+D1n5FjeBIQQQgghhBBCCCGEiMERcAZsHI1m8Ci/mQBe5TcRwLP86gN4l191gAjyqw0QRX6VASLJry5AB6woI+4KeA88pY9+NHz8YfhccwFKyr8AHu+Yy3L4mmYClD7zd8lPLMn7SQhPSfkb+mUnl48Z2wtNafkb4MmI+Z1kbC8sVlc73Yg5dhnbC4nlpeaYAPczthcOi2XHzRJ0Z+w3TEwHfAaeG87hzYivfT3bLAywPvPTuKK/xLyNJXCdsb0QeJGfxgW7I1T1i5g3+Wlc01/nnwxz7IBnw2s5Z36IANFurO0z3NKCfLcBWpHvMkBL8t0FaE2+qwAtyncToFX5LgK0LN88QOvyTQNIvmEAyTcMIPmGASTfMIDkGwaQfMMAXu/nexirA7xmoTP//2MN3Ntf7e1IvqH8BfDFwYF6HCvGPVu0F58cHKjHUUT+MXBjfKAexyTLTs6DWW+Bu4fuqDLOgZfArxI7+4792eZpFFl2trmc4SCijsmvdnKWoM2UOwzMLMtOToAfU+4wKGvgBTOs+TkBTqfeaTDOgVf0S7EJD4Hf2K+/Vaz5f5NzefkTeMC4NzLUwJp+zTc787dp7VZE8UvNHFq5GTf7snMItUdwLT9Ra4QQ8hO1RQglP1FLhJDyE9EjhJafiBqhCvmJaBGqkp+IEqFK+QnvEaqWn/AaoQn5CW8RmpKf8BKhSfkJ6whNy09YRZD8LUpHkPx/UCqC5O9g7giSn8FcESR/BFNHkPw9mCqC5B/AoREkfwL2jSD5E9IxLsIZDp/bic6C/k9E7no3zg39f7RYGM2xCY6Bd8A3+scCL4Gvw2uPDOclhBBCCCGEEJPwB10amUaspaMVAAAAAElFTkSuQmCC"
-                />
-              </defs>
+              <path
+                d="M416 64H257.6L76.5 251.6c-8 8-12.3 18.5-12.5 29-.3 11.3 3.9 22.6 12.5 31.2l123.7 123.6c8 8 20.8 12.5 28.8 12.5s22.8-3.9 31.4-12.5L448 256V96l-32-32zm-30.7 102.7c-21.7 6.1-41.3-10-41.3-30.7 0-17.7 14.3-32 32-32 20.7 0 36.8 19.6 30.7 41.3-2.9 10.3-11.1 18.5-21.4 21.4z"
+                fill="grey"
+              ></path>
             </svg>
 
-            <p>200kr.</p>
+            <p class="ml-2">200kr.</p>
           </div>
           <div class="flex">
             <svg
@@ -139,22 +112,33 @@
               viewBox="0 0 16 16"
             >
               <path
-                fill="currentColor"
+                fill="grey"
                 d="M1.5 3A1.5 1.5 0 0 0 0 4.5V6a.5.5 0 0 0 .5.5a1.5 1.5 0 1 1 0 3a.5.5 0 0 0-.5.5v1.5A1.5 1.5 0 0 0 1.5 13h13a1.5 1.5 0 0 0 1.5-1.5V10a.5.5 0 0 0-.5-.5a1.5 1.5 0 0 1 0-3A.5.5 0 0 0 16 6V4.5A1.5 1.5 0 0 0 14.5 3h-13Z"
               ></path>
             </svg>
-            <p>Ticket Required</p>
+            <p class="ml-2">Ticket Required</p>
           </div>
         </div>
-        <div class="h-36 w-1 bg-black"></div>
+        <div class="bg-grey h-36 w-1"></div>
         <div class="m-3">
-          <p>Instruktør: Lise Larsen</p>
-          <p>Skuespillere: Lise Larsen, Hans Hansen, Lars Larsen</p>
-          <p>Varighed: 60min.</p>
+          <div class="mb-2 flex">
+            <p class="mr-2 font-bold">Instruktør:</p>
+            <p>Lise Larsen</p>
+          </div>
+
+          <div class="flex">
+            <p class="mr-2 font-bold">Skuespillere:</p>
+            <p>Lise Larsen, Hans Hansen, Lars Larsen</p>
+          </div>
+
+          <div class="mt-2 flex">
+            <p class="mr-2 font-bold">Varighed:</p>
+            <p>60min.</p>
+          </div>
         </div>
       </section>
 
-      <section>
+      <section class="m-3">
         <h4>Om showet</h4>
         <p>
           Lörem ipsum bål psykoskop jag dialonat sengar. Plaktiga pressa vinar.
@@ -168,7 +152,7 @@
 
       <!-- Lignende foresrtillinger -->
       <!-- section kort start -->
-      <section>
+      <section class="m-3 mt-6">
         <h4>Lignende forestillinger</h4>
         <div class="p-auto m-auto mt-3 flex flex-col">
           <div class="hide-scroll-bar flex overflow-x-scroll pb-10">
