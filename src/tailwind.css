@@ -65,6 +65,11 @@ audio {
     color: var(--txtcolor);
   }
 
+  main {
+    max-width: 42rem;
+    margin: auto;
+  }
+
   body {
     background-color: var(--bgcolor);
     --weight-regurlar: 400;
@@ -118,7 +123,7 @@ audio {
   }
 
   footer {
-    background-color: var(--bgcolor)
+    background-color: var(--bgcolor);
   }
 
   button {
