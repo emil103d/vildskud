@@ -70,6 +70,15 @@ audio {
     margin: auto;
   }
 
+  #footer {
+    max-width: 56rem;
+    margin: auto;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   body {
     background-color: var(--bgcolor);
     --weight-regurlar: 400;
