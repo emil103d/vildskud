@@ -9,93 +9,111 @@
     <link rel="stylesheet" href="https://use.typekit.net/hjn8wpi.css" />
   </head>
   <body>
-    <header>
-      <img class="w-8" src="./img/logo.png" alt="" />
-      <div class="menuknap">
-        <div class="menuknap_burger"></div>
+    <!-- --------header start------------ -->
+
+    <header class="sticky top-0 m-auto mb-8 mt-4 max-w-2xl lg:mt-20 lg:mb-20">
+      <div id="header">
+        <img
+          id="logo"
+          class=""
+          src="./img/vildskud-identiet-transparent-1.png"
+          alt=""
+        />
+        <div class="menuknap">
+          <div class="menuknap_burger"></div>
+        </div>
+        <ul id="menu" class="z-100 mt-10 hidden text-left">
+          <div class="">
+            <h1 class="ml-4 text-center text-lg text-black">
+              Vildskud <br />
+              Festival <br />
+              2022
+            </h1>
+          </div>
+          <div class="mt-10">
+            <li><a href="index.html">Forside</a></li>
+            <li><a href="program.html">Program</a></li>
+            <li><a href="billetter.html">Billetter</a></li>
+            <li><a href="minliste.html">Mit Program</a></li>
+            <li><a href="pop-up.html">Om os</a></li>
+            <li><a href="##">Bliv frivillig</a></li>
+            <li><a href="##">Kontakt</a></li>
+          </div>
+        </ul>
       </div>
-      <ul id="menu" class="hidden">
-        <li><a href="index.html">Forside</a></li>
-        <li><a href="##">Program</a></li>
-        <li><a href="billetter.html">Biletter</a></li>
-        <li><a href="##">Mit Prorgram</a></li>
-        <li><a href="##">Om os</a></li>
-        <li><a href="##">Bliv frivillig</a></li>
-        <li><a href="##">Kontakt</a></li>
-      </ul>
     </header>
+
+    <!-- --------header slut ----------- -->
     <main class="">
-
-
       <!-- section kort start -->
 
-      <section class="grid m-auto justify-center max-w-[1000px] pb-28"> 
-        <h1 class="text-center pb-12">BILLETTER</h1>
-        <div class="grid gap-6 md:grid-cols-2 grid-rows-2">
-        <div class="px-4">
-          <div class="bg-[#62ada2] rounded-xl grid px-4 py-6">
-            <div class="pb-2">
-              <h4 class="font-bold text-[#fee3d6]">FESTIVAL PASS</h4>
-              <p class="font-bold text-[#fee3d6]">800 DKK</p>
+      <section class="m-auto grid max-w-[1000px] justify-center pb-28">
+        <h1 class="pb-12 text-center">BILLETTER</h1>
+        <div class="grid grid-rows-2 gap-6 md:grid-cols-2">
+          <div class="px-4">
+            <div class="grid rounded-xl bg-[#62ada2] px-4 py-6">
+              <div class="pb-2">
+                <h4 class="font-bold text-[#fee3d6]">FESTIVAL PASS</h4>
+                <p class="font-bold text-[#fee3d6]">800 DKK</p>
+              </div>
+              <p class="pb-4">
+                Med festival passet får du den full expereince. Du har du adgang
+                til alle event i hele ugen og du har fri adgang i alle vores
+                afdelinger.
+              </p>
+              <button class="justify-center rounded-xl">Køb Billet</button>
             </div>
-            <p class="pb-4">Med festival passet får du den full expereince. Du har du adgang til alle event i hele ugen og du har fri adgang i alle vores 
-              afdelinger.  </p>
-            <button class="justify-center rounded-xl"> Køb Billet</button>
-          </div>
-        </div>
-
-        <div class="px-4">
-          <div class="bg-[#62ada2] rounded-xl grid px-4 py-6">
-            <div class="pb-2">
-              <h4 class="font-bold text-[#fee3d6]">WEEKEND PASS</h4>
-              <p class="font-bold text-[#fee3d6]">400 DKK</p>
-            </div>
-            <p class="pb-4">Med weekend passet har du adgang til alle 5 events i weekenden og du har fri adgang i alle vores afdelinger.   </p>
-            <button class="justify-center rounded-xl"> Køb Billet</button>
           </div>
 
-        </div>
-
-        <div class="px-4">
-          <div class="bg-[#62ada2] rounded-xl grid px-4 py-6">
-            <div class="pb-2">
-              <h4 class="font-bold text-[#fee3d6]">EN DAGS PASS</h4>
-              <p class="font-bold text-[#fee3d6]">250 DKK</p>
+          <div class="px-4">
+            <div class="grid rounded-xl bg-[#62ada2] px-4 py-6">
+              <div class="pb-2">
+                <h4 class="font-bold text-[#fee3d6]">WEEKEND PASS</h4>
+                <p class="font-bold text-[#fee3d6]">400 DKK</p>
+              </div>
+              <p class="pb-4">
+                Med weekend passet har du adgang til alle 5 events i weekenden
+                og du har fri adgang i alle vores afdelinger.
+              </p>
+              <button class="justify-center rounded-xl">Køb Billet</button>
             </div>
-            <p class="pb-4">Med en dags passet har du adgang til alle 3 events i løbet af dagen og du har fri adgang i alle vores afdelinger.   </p>
-            <button class="justify-center rounded-xl"> Køb Billet</button>
-          </div>
-        </div>
-        <div class="px-4">
-          <div class="bg-[#62ada2] rounded-xl grid px-4 py-6">
-            <div class="pb-2">
-              <h4 class="font-bold text-[#fee3d6]">FESTIVAL PASS</h4>
-              <p class="font-bold text-[#fee3d6]">800 DKK</p>
-            </div>
-            <p class="pb-4">Med festival passet får du den full expereince. Du har du adgang til alle event i hele ugen og du har fri adgang i alle vores 
-              afdelinger.    </p>
-            <button class="justify-center rounded-xl"> Køb Billet</button>
           </div>
 
+          <div class="px-4">
+            <div class="grid rounded-xl bg-[#62ada2] px-4 py-6">
+              <div class="pb-2">
+                <h4 class="font-bold text-[#fee3d6]">EN DAGS PASS</h4>
+                <p class="font-bold text-[#fee3d6]">250 DKK</p>
+              </div>
+              <p class="pb-4">
+                Med en dags passet har du adgang til alle 3 events i løbet af
+                dagen og du har fri adgang i alle vores afdelinger.
+              </p>
+              <button class="justify-center rounded-xl">Køb Billet</button>
+            </div>
+          </div>
+          <div class="px-4">
+            <div class="grid rounded-xl bg-[#62ada2] px-4 py-6">
+              <div class="pb-2">
+                <h4 class="font-bold text-[#fee3d6]">FESTIVAL PASS</h4>
+                <p class="font-bold text-[#fee3d6]">800 DKK</p>
+              </div>
+              <p class="pb-4">
+                Med festival passet får du den full expereince. Du har du adgang
+                til alle event i hele ugen og du har fri adgang i alle vores
+                afdelinger.
+              </p>
+              <button class="justify-center rounded-xl">Køb Billet</button>
+            </div>
+          </div>
         </div>
-      </div>
       </section>
-    
-
-
-
-
-
-
-
-
 
       <!-- FOOTER -->
-      <footer class="mt-10 w-[100vw] mt-0 m-auto fixed bottom-0 z-10">
+      <footer class="fixed bottom-0 z-10 m-auto mt-10 mt-0 w-[100vw]">
         <div>
-          <div class="h-0.5 flex m-auto max-w-[1000px] bg-black"></div>
-          <div class="flex justify-between max-w-[1000px] m-auto">
-  
+          <div class="m-auto flex h-0.5 max-w-[1000px] bg-black"></div>
+          <div class="m-auto flex max-w-[1000px] justify-between">
             <a href="##">
               <svg
                 class="m-3"
@@ -147,11 +165,10 @@
                 fill-opacity="0.5"
               />
             </svg>
-  
+
             <img class="m-3 w-8" src="./img/heart.svg" alt="" />
           </div>
-        </div>     
-        
+        </div>
       </footer>
     </main>
 

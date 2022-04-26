@@ -8,14 +8,24 @@
     --text: "montserrat", sans-serif;
     --h1_text: "bungee", sans-serif;
 
-    /* Farver */
+    /* Farver
     --primary: #fc653a;
     --secondary: #62ada2;
     --bgcolor: #fee3d6;
     --grey: #272727;
     --sort: #000000;
     --hvid: #ffffff;
+    --txtcolor: #292828; */
+
+    /* Farver */
+    --primary: #20ba83;
+    --secondary: #fbf27f;
+    --bgcolor: #fcfcdc;
+    --grey: #272727;
+    --sort: #000000;
+    --hvid: #ffffff;
     --txtcolor: #292828;
+    --yellow: #fbf27f;
 
     /* Sizes */
     --font_h1: clamp(3.5rem, 1.6591rem + 1.4545vw, 2.75rem);
@@ -234,17 +244,16 @@ audio {
   #menu {
     list-style-type: none;
     transition: transform 0.3s;
-    background-color: var(--primary);
+    background-color: var(--yellow);
     text-align: right;
     transition: all 1s ease-in-out;
     position: absolute;
     top: 0;
     right: -1%;
     width: 15rem;
-    height: 500%;
     padding-top: 5rem;
     z-index: 0;
-    height: 60vh;
+    height: 70vh;
     margin-top: 10px;
   }
 
