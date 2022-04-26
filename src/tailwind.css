@@ -75,6 +75,11 @@ audio {
     margin: auto;
   }
 
+  #logo {
+    width: 50px;
+    height: 50px;
+  }
+
   #footer {
     max-width: 56rem;
     margin: auto;
@@ -155,11 +160,11 @@ audio {
     display: flex;
     justify-content: right;
     align-items: center;
-    min-height: 10vh;
+    min-height: 0vh;
     justify-content: space-between;
-    z-index: 5;
+    z-index: 10;
     position: relative;
-    top: -81%;
+    top: -25%;
     left: 1%;
   }
 
@@ -229,20 +234,27 @@ audio {
   #menu {
     list-style-type: none;
     transition: transform 0.3s;
-    background-color: rgba(98, 172, 161, 0.74);
+    background-color: var(--primary1);
     text-align: right;
     transition: all 1s ease-in-out;
     position: absolute;
     top: 0;
     right: -1%;
-    width: 10rem;
+    width: 15rem;
     height: 500%;
     padding-top: 5rem;
     z-index: 0;
+    height: 20vh;
+    margin-top: 10px;
   }
 
   #menu li {
     margin-top: 0.5rem;
+    background-color: #ffffffa8;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
   }
 
   #menu li a {
