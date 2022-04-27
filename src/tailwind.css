@@ -28,7 +28,7 @@
     --yellow: #fbf27f;
 
     /* Sizes */
-    --font_h1: clamp(3.5rem, 1.6591rem + 1.4545vw, 2.75rem);
+    --font_h1: clamp(3rem, 1.6591rem + 1.4545vw, 2.75rem);
     --font_h2: clamp(2rem, 1.6591rem + 1.4545vw, 2.75rem);
     --font_h3: 2.188rem;
     --font_h4: clamp(1.6rem, 1.5091rem + 0.3879vw, 1.8rem);
@@ -107,9 +107,9 @@ audio {
   }
 
   section {
-    max-width: 1000px;
     margin: 0 auto;
     margin-top: 5rem;
+    margin-button: 3rem;
   }
 
   /* Skrift */
@@ -158,7 +158,7 @@ audio {
   button {
     background-color: var(--primary);
     border-radius: var(--border-radius-md);
-    color: var(--hvid);
+    color: black;
     font-size: var(--font_knap);
     padding: 10px 45px;
     border-style: none;
