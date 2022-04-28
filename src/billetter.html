@@ -50,7 +50,7 @@
 
       <div
         id="popup"
-        class="hidden2 left-50% absolute top-0 left-0 z-10 m-auto items-center"
+        class="position hidden2 left-50% absolute top-0 left-0 z-10 m-auto items-center"
       >
         <section class="relative h-[60vh] max-w-lg">
           <button
@@ -265,5 +265,11 @@
   }
   .hide-scroll-bar::-webkit-scrollbar {
     display: none;
+  }
+
+  .position {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 </style>
