@@ -55,8 +55,12 @@
   }
 
   #hero {
-    background-image: url("img/herony.webp");
-    background-size: cover;
+    background: rgb(251, 242, 127);
+    background: linear-gradient(
+      180deg,
+      rgba(251, 242, 127, 1) 0%,
+      rgba(252, 252, 220, 1) 100%
+    );
   }
 
   #single_view {
@@ -149,10 +153,6 @@ audio {
 
   a:hover {
     text-decoration: underline;
-  }
-
-  footer {
-    background-color: var(--bgcolor);
   }
 
   button {
